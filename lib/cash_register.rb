@@ -15,7 +15,7 @@ class CashRegister
     if quantity == 1
       @items << title
     else
-      @items << (title*quantity).split(" ") 
+      @items << (title*quantity).split(" ")
     end
   end
 
@@ -29,7 +29,7 @@ class CashRegister
   end
 
   def items
-    @items
+    @items.join
   end
 
   def void_last_transaction
