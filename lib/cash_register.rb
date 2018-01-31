@@ -16,8 +16,6 @@ class CashRegister
     if quantity == 3
       @items << title
       @items << title
-      @items << title
-
     end
   end
 
