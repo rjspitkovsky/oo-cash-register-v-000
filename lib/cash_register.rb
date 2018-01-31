@@ -15,11 +15,11 @@ class CashRegister
     @items << title
 
     quantity.times do
-      @items << title 
+      @items << title
     # if quantity == 3
     #   @items << title
     #   @items << title
-    # end
+     end
   end
 
   def apply_discount
