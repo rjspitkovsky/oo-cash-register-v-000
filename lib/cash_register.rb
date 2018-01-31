@@ -29,7 +29,7 @@ class CashRegister
   end
 
   def items
-    @items.join(" ").split 
+    @items.join(" ")
   end
 
   def void_last_transaction
