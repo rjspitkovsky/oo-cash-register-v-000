@@ -14,8 +14,8 @@ class CashRegister
     @last_transaction = price*quantity
     if quantity == 1
       @items << title
-    else 
-      @items << title*quantity
+    else
+      @items << (title*quantity).split 
     end
   end
 
