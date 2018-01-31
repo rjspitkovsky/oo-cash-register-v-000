@@ -13,11 +13,12 @@ class CashRegister
     @total += price*quantity
     @last_transaction = price*quantity
     if quantity > 1
-      x = 0 
+      x = 0
     while x > quantity
       @items << title
       x += 1
     end
+  end 
   end
 
   def apply_discount
